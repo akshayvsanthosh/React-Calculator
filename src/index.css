@@ -1,0 +1,73 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.containerDiv{
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(6px);
+}
+
+.calculator{
+  width: 384px;
+  height: 537px;
+  background-color: #ecf0f3;
+  border-radius: 30px;
+  box-shadow: inset 5px 5px 12px 0px #afafaf, 5px 5px 12px 0px rgb(255 255 255 / 16%);
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+
+.calScreen{
+  width: 90%;
+  height: 113%;
+  background-color: #ecf0f3;
+  box-shadow: inset -5px -5px 12px #ffffff, inset 5px 5px 12px rgb(159 159 159);
+  border-radius: 30px;
+  border: 0;
+  font-size: 50px;
+  color: rgb(70, 70, 70);
+  text-align: end;
+  padding: 0px 9px;
+}
+
+.symblBttn{
+  height: 100% !important;
+  font-size: 22px !important;
+  color: black !important;
+  font-weight: 600 !important;
+  background-color: #dbdbdb !important;
+  width: 22%;
+}
+
+.clrBttn{
+  font-size: 17px !important;
+}
+
+.nrmlBttn{
+  background-color: #ffffff !important;
+}
+
+.eqlBttn{
+  background-color: orange !important;
+}
+
+
+@media (max-width:386px) {
+  .gridDiv{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .firstStack{
+    padding-left: 0px !important;
+  }
+
+  .symblBttn{
+    margin-left: 5px !important;
+  }
+}
