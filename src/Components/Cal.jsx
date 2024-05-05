@@ -32,7 +32,7 @@ function Cal() {
             <div className='calculator'>
                 <Grid container spacing={2} className="w-100" sx={{ height: "100%" }}>
                     <Grid xs={12} className=' d-flex justify-content-center'>
-                        <input id='calculSreen' type="text" className='calScreen' placeholder='0'/>
+                        <input  readOnly={true} id='calculSreen' type="text" className='calScreen' placeholder='0'/>
                     </Grid>
                     <Grid className="gridDiv" xs={12} sx={{ paddingLeft: "35px", paddingRight: "33px", paddingTop:"13px" }}>
 
